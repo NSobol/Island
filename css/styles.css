@@ -1,10 +1,11 @@
 body {
-    width: 100%;
+    width: 1200px;
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #ffffff;
     position: relative;
+    overflow: hidden;
 }
 
 a {
@@ -19,7 +20,7 @@ section {
     box-sizing: border-box;
     border: 2px solid black;
     background-color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -32,7 +33,6 @@ section {
 .menu-list {
     display: flex;
     flex-wrap: nowrap;
-    width: 900px;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -91,8 +91,8 @@ section {
     box-sizing: border-box;
     background-color: white;
     top: 70%;
-    left: 25%;
-    right: 25%;
+    left: 12.5%;
+    right: 12.5%;
     bottom: 20%;
 }
 
