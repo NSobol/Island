@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+-->
+    <title>Funny Island</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="">About</a></li>
+                <li class="menu-list-item"><a href="">Investors</a></li>
+                <li class="menu-list-item"><a href="">Careers</a></li>
+                <li class="menu-list-item"><a href="">Environment</a></li>
+                <li class="menu-list-item"><a href="">Lang:EN</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="container-title">
+                <div class="container">
+                    <h1 class="title">Funny Island</h1>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main">
+            <nav class="tabs">
+                <ul class="menu-tabs">
+                    <li class="menu-tabs-item tab tab_active"><img src="images/png/promote-16x16.png" alt="" class="icons"><a href="#0">Promotion</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/ticket-16x16.png" alt="" class="icons"><a href="#0">Tickets</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/wheel-16x16.png" alt="" class="icons"><a href="#0">Attractions</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/financial-16x16.png" alt="" class="icons"><a href="#0">Financial Report</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/about-16x16.png" alt="" class="icons"><a href="#0">About Company</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/career-16x16.png" alt="" class="icons"><a href="#0">Careers</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/news-16x16.png" alt="" class="icons"><a href="#0">Events & News</a></li>
+                </ul>
+            </nav>
+            <section class="promotion tab__content tab__content_active">
+                <div class="promotion-header">
+                    <img src="images/png/promote-16x16.png" alt="" class="icons">
+                    <p class="promotion-text">2 adults, 1 kid free promotion during December.</p>
+                </div>
+                <div class="promotion-body-photo">
+                    <img src="images/jpg/photo-1460788150444-d9dc07fa9dba.jpg" alt="boy" class="promotion-photo">
+                </div>
+            </section>
+            <section class="tickets tab__content">
+                <div class="section-header">
+                    <img src="images/png/ticket-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        Tickets and Admission
+                    </h2>
+                </div>
+
+                <form action="formdata" method="post" name="ticket" class="tickets-form">
+                    <div>
+                        Amount of Guests
+                    </div>
+                    <div class="guests">
+                        <label>Adult: <br>
+                            <select name="" id="" class="adult">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </label>
+
+                        <label>Children: <br>
+                            <select name="" id="" class="children">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </label>
+
+                        <label>Senior: <br>
+                            <select name="" id="" class="senior">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>Adult1 </div> <br>
+                    <div class="guest1">
+
+                        <div class="guest">
+                            <label>
+                                <input type="text" name="name1" id="name1" class="name-guest1" value="Example Wood">
+                            </label> <br>
+                            <label>
+                                <input type="checkbox" name="check" id="check1" class="check-guest1">
+                                + Fast Pass >> <br></label>
+                        </div>
+                        <div class="ticket-photo-block">
+                            <div class="ticket-photo">
+                                <div class="ticket-text">Example Wood</div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="attractions tab__content">
+                <div class="section-header">
+                    <img src="images/png/wheel-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        Attractions
+                    </h2>
+                </div>
+                <div class="attractions-photo">
+                    <img src="images/jpg/photo-1478369317562-3f92a3a9c9d6.jpg" alt="Enjoy the night.">
+                    <img src="images/jpg/photo-1454021108581-20ec63d13d55.jpg" alt="Park in birdview">
+                    <img src="images/jpg/photo-1471893300835-dff67e40e355.jpeg" alt="Crazy tower!">
+                    <img src="images/jpg/photo-1465779171454-aa85ccf23be6.jpg" alt="Roller coster">
+                </div>
+            </section>
+            <section class="financial-report tab__content">
+                <div class="section-header">
+                    <img src="images/png/financial-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        Financial Report
+                    </h2>
+                </div>
+
+                <div class="financial-report-text">
+                    <div class="report-price">
+                        <p>FUNI as of 13:45, 1st December, 2016: </p>
+                        <p>Pricing delayed by 15 min.</p>
+                    </div>
+                    <div class="price">
+                        $93.85
+                    </div>
+                </div>
+                <div class="downloading">
+                    <a href="financial_report.pdf" download>Download Q3 Financial Report</a>
+                </div>
+            </section>
+            <section class="about-company tab__content">
+                <div class="section-header">
+                    <img src="images/png/about-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        About Company
+                    </h2>
+                </div>
+
+                <div>
+                    We have 3 theme parks in Scandinavia.
+                </div>
+                <div>
+                    <ol>
+                        <li class='city'>Stockholm</li>
+                        <li class='city'>Gothenburg</li>
+                        <li class='city'>Oslo</li>
+                    </ol>
+                </div>
+                <img src="images/svg/AxG_Pixel_Europe.svg" alt="map" class="map">
+            </section>
+            <section class="careers tab__content">
+                <div class="section-header">
+                    <img src="images/png/career-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        Careers
+                    </h2>
+                </div>
+
+                <div>We have 5 jobs opening.</div>
+                <div class="careers-photo">
+                    <img src="images/jpg/photo-1451933371645-a3029668b979.jpeg" alt="Carpenter">
+                    <img src="images/jpg/photo-1461280360983-bd93eaa5051b.jpeg" alt="Park helper">
+                    <img src="images/jpg/photo-1427751840561-9852520f8ce8.jpeg" alt="Financial manager">
+                    <img src="images/jpg/photo-1432888498266-38ffec3eaf0a.jpeg" alt="Mobile app developer">
+                    <img src="images/jpg/photo-1448932155749-638e51b56f03.jpeg" alt="Copywriter">
+                </div>
+
+                <div>Please send your cover letter and résumé via email: <a href="">funnyisland@example.com </a>.</div>
+                <div><a href="">Learn more about our benefits .</a></div>
+            </section>
+            <section class="events tab__content">
+                <div class="section-header">
+                    <img src="images/png/news-16x16.png" alt="" class="icons icon">
+                    <h2 class="section-title">
+                        Events & News
+                    </h2>
+                </div>
+
+                <article>
+                    <date>2016-12-01</date><br>
+                    <a href="" class="news-text">Upcoming theme park opening in Lisbon in 2018.</a>
+                </article>
+                <article>
+                    <date>2016-11-28</date><br>
+                    <a href="" class="news-text">Christmas Party month</a>
+                </article>
+                <article>
+                    <date>2016-11-25</date><br>
+                    <a href="" class="news-text">Q4 financial report to be announced on Feb 2017</a>
+                </article>
+                <article>
+                    <date>2016-11-04</date><br>
+                    <a href="" class="news-text">Q3 financial report is ready</a>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <div class="text">© 2016, Funny Island Company. Attraction photos from Unsplash. Europe map from public domain.</div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body></html>

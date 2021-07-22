@@ -1,0 +1,12 @@
+@media (max-width: 640px) {
+    .banner {
+        height: 50%;
+        background-image: url(../images/jpg/photo-1464059728276-d877187d61a9.jpeg);
+    }
+
+
+    .footer {
+        height: 100vh;
+        background-image: url(../images/png/Footer-2x.png);
+    }
+}

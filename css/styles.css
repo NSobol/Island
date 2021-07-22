@@ -1,0 +1,345 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: block;
+    margin: 0;
+    background-color: black;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu-list:last-child {
+    padding-right: 30px;
+}
+
+.menu-list-item a {
+    color: white;
+}
+
+.banner {
+    background-image: url("../images/jpg/photo-1464059728276-d877187d61a9.jpeg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.container-title {
+    display: block;
+    width: 320px;
+    height: 160px;
+    padding-top: 220px;
+    padding-bottom: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.title {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.main {
+    width: 900px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+    top: 70%;
+    left: 25%;
+    right: 25%;
+    bottom: 20%;
+}
+
+.tabs {
+    box-sizing: border-box;
+    width: 900px;
+    border: 2px solid black;
+}
+
+.menu-tabs {
+    box-sizing: border-box;
+    height: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    align-items: center;
+}
+
+.menu-tabs-item {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icons {
+    width: 16px;
+    height: 16px;
+    padding: 0 5px;
+    margin: 0;
+    vertical-align: text-bottom;
+}
+
+.menu-tabs-item a {
+    color: black;
+    font-weight: bold;
+}
+
+
+.promotion {
+    width: 100%;
+    height: 660px;
+}
+
+.promotion-header {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 900px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.promotion-text {
+    margin: 0;
+    padding: 0;
+}
+
+.promotion-body-photo {
+    margin: 0;
+    padding: 0;
+}
+
+.promotion-photo {
+    width: 100%;
+}
+
+.attractions-photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attractions-photo img {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 15px 5px;
+}
+
+.section-header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px 0 30px 20px;
+}
+
+.section-title {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.guests {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tickets-form {
+    margin: 20px;
+}
+
+.adult,
+.children,
+.senior {
+    width: 250px;
+    height: 30px;
+}
+
+.guest1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.name-guest1 {
+    width: 350px;
+    height: 30px;
+}
+
+.ticket-photo-block {
+    box-sizing: border-box;
+    width: 455px;
+    height: 75px;
+    margin-left: 30px;
+}
+
+
+.ticket-photo {
+    width: 455px;
+    height: 75px;
+    background-image: url("../images/png/Funny\ Island\ Ticket-2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.ticket-text {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-left: 18px;
+}
+
+.careers-photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.careers-photo img {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 15px 5px;
+}
+
+.financial-report {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.financial-report-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.report-price {
+    padding-right: 10px;
+    border-right: 2px solid lightgray;
+}
+
+.report-price p {
+    text-align: end;
+}
+
+.price {
+    font-size: 58px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.downloading {
+    width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}
+
+.downloading a {
+    display: block;
+    color: lightskyblue;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.map {
+    width: 900px;
+    height: 900px;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.footer-text {
+    background-image: url("../images/png/Footer-2x.png");
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+    background-repeat: repeat;
+    background-position: bottom center;
+    margin-top: 40px;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.tab_active {
+    color: blue;
+}
+
+.tab__content {
+    display: none;
+    padding: 20px;
+}
+
+.tab__content_active {
+    display: block;
+}
