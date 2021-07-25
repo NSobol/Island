@@ -1,27 +1,31 @@
 "use strict"
+document.addEventListener("DOMContentLoaded", () => {
+    const tabs = document.querySelectorAll('.tab');
+    let arrayTabs = Array.from(tabs);
+    const contents = document.querySelectorAll('.tab__content');
+    let arrayContents = Array.from(contents);
 
-const tabs = document.querySelectorAll('.tab');
-let arrayTabs = Array.from(tabs);
-console.log(arrayTabs);
-const contents = document.querySelectorAll('.tab__content');
-let arrayContents = Array.from(contents);
+    let tabIndex = arrayTabs.findIndex(elem => elem.classList.contains("tab_active"));
 
-let tabIndex = arrayTabs.findIndex(elem => elem.classList.contains("tab_active"));
+    function change(tabIndex) {
+        arrayTabs[tabIndex].classList.toggle("tab_active");
+        arrayContents[tabIndex].classList.toggle("tab__content_active");
+    }
 
-console.log(arrayTabs[tabIndex]);
+    function getTab(index) {
+        change(tabIndex);
+        tabIndex = index;
+        change(tabIndex);
+    }
 
-function change(tabIndex) {
-    console.log(tabIndex);
-    arrayTabs[tabIndex].classList.toggle("tab_active");
-    arrayContents[tabIndex].classList.toggle("tab__content_active");
-}
+    const ul = document.querySelector(".menu-tabs");
+    ul.addEventListener("click", (event) => {
+        const li = event.target.closest('li');
+        let index = arrayTabs.findIndex(elem => elem === li);
+        if (li) {
+            console.log(index);
+            getTab(index);
+        }
+    });
 
-function getTab(event) {
-    change(tabIndex);
-    tabIndex = arrayTabs.indexOf(event.target);
-    change(tabIndex);
-}
-
-for (let i = 0; i < arrayTabs.length; i++) {
-    arrayTabs[i].addEventListener("click", getTab);
-}
+});

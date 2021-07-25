@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <!--
-    <link rel="stylesheet" href="css/tablet.css">
+
+    <!--    <link rel="stylesheet" href="css/tablet.css">-->
     <link rel="stylesheet" href="css/mobile.css">
--->
+
     <title>Funny Island</title>
+    <script src="js/index.js">
+        {
+            if (screen.width > 640) document.write('<script type="text/javascript" src="js/index.js" ></sc' + 'ript>');
+        }
+    </script>
 </head>
 
 <body>
@@ -21,7 +26,8 @@
                 <li class="menu-list-item"><a href="">Investors</a></li>
                 <li class="menu-list-item"><a href="">Careers</a></li>
                 <li class="menu-list-item"><a href="">Environment</a></li>
-                <li class="menu-list-item"><a href="">Lang:EN</a></li>
+                <li class="menu-list-item lang"><a href="">EN/SE/NO/FI</a></li>
+                <li class="menu-list-item lang-mobile"><a href="">Lang:EN</a></li>
             </ul>
         </nav>
     </header>
@@ -38,13 +44,13 @@
         <div class="main">
             <nav class="tabs">
                 <ul class="menu-tabs">
-                    <li class="menu-tabs-item tab tab_active"><img src="images/png/promote-16x16.png" alt="" class="icons">Promotion</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/ticket-16x16.png" alt="" class="icons">Tickets</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/wheel-16x16.png" alt="" class="icons">Attractions</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/financial-16x16.png" alt="" class="icons">Financial Report</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/about-16x16.png" alt="" class="icons">About Company</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/career-16x16.png" alt="" class="icons">Careers</li>
-                    <li class="menu-tabs-item tab"><img src="images/png/news-16x16.png" alt="" class="icons">Events & News</li>
+                    <li class="menu-tabs-item tab tab_active"><img src="images/png/promote-16x16.png" alt="" class="icons"><a href="">Promotion</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/ticket-16x16.png" alt="" class="icons"><a href="">Tickets</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/wheel-16x16.png" alt="" class="icons"><a href="#0">Attractions</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/financial-16x16.png" alt="" class="icons"><a href="">Financial Report</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/about-16x16.png" alt="" class="icons"><a href="">About Company</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/career-16x16.png" alt="" class="icons"><a href="">Careers</a></li>
+                    <li class="menu-tabs-item tab"><img src="images/png/news-16x16.png" alt="" class="icons"><a href=""></a>Events & News</li>
                 </ul>
             </nav>
             <section class="promotion tab__content tab__content_active">
@@ -219,5 +225,5 @@
             </div>
         </footer>
     </main>
-    <script src="js/index.js"></script>
+
 </body></html>
