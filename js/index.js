@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const li = event.target.closest('li');
         let index = arrayTabs.findIndex(elem => elem === li);
         if (li) {
-            console.log(index);
             getTab(index);
         }
     });
